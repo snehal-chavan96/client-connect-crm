@@ -42,3 +42,59 @@ A modern full-stack CRM (Customer Relationship Management) web application built
 ---
 
 ## 📂 Project Structure
+client-connect-crm/
+│
+├── client/ # React frontend
+│ ├── src/
+│ ├── public/
+│ └── package.json
+│
+├── server/ # Node.js backend
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ ├── middleware/
+│ ├── config/
+│ └── server.js
+│
+├── .env
+├── package.json
+└── README.md
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
+git clone https://github.com/your-username/client-connect-crm.git
+cd client-connect-crm
+2️⃣ Backend Setup
+cd server
+npm install
+
+Create a .env file in /server:
+
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+
+Run backend:
+
+npm run dev
+3️⃣ Frontend Setup
+cd client
+npm install
+npm start
+
+Frontend will run on:
+
+http://localhost:3000
+🌐 API Endpoints (Sample)
+Method	Endpoint	Description
+POST	/api/auth/register	Register user
+POST	/api/auth/login	Login user
+GET	/api/clients	Get all clients
+POST	/api/clients	Add new client
+GET	/api/tickets	Get all tickets
+POST	/api/tickets	Create ticket
