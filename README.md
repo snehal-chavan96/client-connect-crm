@@ -41,29 +41,6 @@ A modern full-stack CRM (Customer Relationship Management) web application built
 
 ---
 
-## 📂 Project Structure
-client-connect-crm/
-│
-├── client/ # React frontend
-│ ├── src/
-│ ├── public/
-│ └── package.json
-│
-├── server/ # Node.js backend
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ ├── middleware/
-│ ├── config/
-│ └── server.js
-│
-├── .env
-├── package.json
-└── README.md
-
-
----
-
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone Repository
