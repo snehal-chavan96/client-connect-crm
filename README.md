@@ -1,10 +1,8 @@
 # 🚀 Client Connect CRM System
 
-![React](https://img.shields.io/badge/React-19.2.5-blue?logo=react)
-![Vite](https://img.shields.io/badge/Vite-6.0-purple?logo=vite)
-![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-4.2-06B6D4?logo=tailwindcss)
+![MERN Stack](https://img.shields.io/badge/MERN-MongoDB%20%7C%20Express%20%7C%20React%20%7C%20Node.js-3C873A?logo=mongodb&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-blue)
-![Status](https://img.shields.io/badge/Status-Production--Ready-success)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
 A **production-ready CRM frontend** implementing strict **3-layer architecture** for complete separation between Public Website, Client Portal, and Admin Dashboard. Built with React 19, Vite, and Tailwind CSS.
 
